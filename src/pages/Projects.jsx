@@ -44,14 +44,6 @@ const PROJECTS = [
     code: 'https://github.com/kunj2803/Docuchat-Chatbot'
   },
   {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
     title: '🧬 Breast Cancer Prediction',
     desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
     ss: '/breastpred.jpg',
