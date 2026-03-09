@@ -19,7 +19,7 @@ export default function Home() {
     'MERN Stack Engineer',
     "Database Management Expert",
     'Video Editor',
-    'Developer',
+    'Python Developer',
   ]
 
   const quickLinks = [
@@ -61,7 +61,7 @@ export default function Home() {
           >
             <motion.img
               src={photo}
-              alt="Kunj Desai"
+              alt="Navin"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
