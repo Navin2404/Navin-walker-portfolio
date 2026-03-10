@@ -14,7 +14,7 @@ const IMAGES = {
       id: 2,
       caption:
         "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/offline.png", "/gallery/pose.jpeg"],
+      photos: ["/gallery/offline.png", "/gallery/me-bro.jpeg"],
     },
   ],
   projects: [
@@ -115,7 +115,8 @@ export default function Gallery() {
 
       {/* 🧭 Tabs */}
       <motion.div className="tab-buttons" variants={childVariants}>
-        {["personal", "projects", "achievements"].map((type) => (
+        {/* {["personal", "projects", "achievements"].map((type) => ( */}
+        {["personal"].map((type) => (
           <motion.button
             key={type}
             className={`tab ${tab === type ? "active" : ""}`}
