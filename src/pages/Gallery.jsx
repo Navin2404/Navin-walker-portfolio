@@ -8,13 +8,13 @@ const IMAGES = {
     {
       id: 1,
       caption: "Lost in the beauty of the misty forest 🌲🌫️",
-      photos: ["/gallery/matheran.jpg", "/gallery/matheran2.jpg"],
+      photos: ["/gallery/me-bro.jpeg", "/gallery/navv.jpeg"],
     },
     {
       id: 2,
       caption:
         "Weekend getaway to clear my head 🌄 Sometimes inspiration strikes when you’re away from the screen.",
-      photos: ["/gallery/lonawala.jpg", "/gallery/lonawala2.jpg"],
+      photos: ["/gallery/offline.png", "/gallery/pose.jpeg"],
     },
   ],
   projects: [

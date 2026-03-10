@@ -8,8 +8,17 @@ const PROJECTS = [
     desc: 'Landing page for Laser cutting company, customer can view company products and react out team.',
     ss: '/semi-work.jpg',
     tech: ['Next js', 'animation', 'Javascript', 'Tailwind css'],
-    live: '#',
+    live: 'https://smls.vercel.app/',
     code: 'https://smls.vercel.app/'
+    // code: 'https://github.com/kunjdesai/mammo-detector'
+  },
+  {
+    title: 'Login Management',
+    desc: 'User Authentication System, user can register or login through this login portal ',
+    ss: '/secret.jpg',
+    tech: ['React js', 'Mongo DB', 'Javascript', 'Express js', 'Node js','Tailwind css'],
+    live: 'https://login-management-zeta.vercel.app/',
+    code: 'https://login-management-zeta.vercel.app/'
     // code: 'https://github.com/kunjdesai/mammo-detector'
   },
   // {
