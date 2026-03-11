@@ -23,7 +23,7 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/skills" element={<SkillNetwork />} />
           <Route path="/certificates" element={<Certificates />} />
-          <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} /> {/* ✅ fixed lowercase */}
           <Route path="/contact" element={<Contact />} />

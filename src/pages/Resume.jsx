@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 Naveen C
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              Msc Statistics | Software Engineer
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              📍 krishnagiri, TamilNadu, India
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ navindena2432000@gmail.com | 📞 +91 9629334302
             </p>
           </div>
 
@@ -80,10 +80,9 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+              Backend-focused Web Developer experienced in developing web applications using PHP and Laravel.
+              Proficient in building REST APIs, handling MySQL databases,
+              and integrating third-party services.
             </p>
           </motion.div>
         </motion.div>
@@ -106,25 +105,25 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>Master of science in Statistics</strong>
+              (Periyar University), 2021 – 2022 <br />
+              <span style={{ color: "#aaa" }}>GPA: 8.0</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <strong>Bachelore of science in Statistics</strong> (Periyar
+              University, 2018 - 2020) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 7.0%</span>
             </li>
-            <li style={{ marginTop: 8 }}>
+            {/* <li style={{ marginTop: 8 }}>
               <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 85%</span>
-            </li>
+            </li> */}
           </ul>
         </motion.div>
 
         {/* Projects */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
@@ -137,7 +136,7 @@ export default function Resume() {
             <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
             <li>4️⃣ Mental Health Analyzer</li>
           </ul>
-        </motion.div>
+        </motion.div> */}
 
         {/* Skills */}
         <motion.div
@@ -149,26 +148,18 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "Python",
-              "C",
-              "C++",
-              "Java",
-              "TensorFlow",
-              "PyTorch",
-              "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
-              "React",
+              "PHP",
+              "Laravel",
+              "Node Js",
+              "Express Js",
               "MySQL",
               "MongoDB",
+              "React",
+              "Python",
               "Git",
-              "NLP",
-              "Explainable AI (XAI)",
-              "Problem Solving",
               "Teamwork",
               "Adaptability",
-              "Creativity",
+             
             ].map((skill) => (
               <motion.span
                 key={skill}
@@ -198,9 +189,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            // { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/naveen-c-746b2a253/" },
+             { name: "💻 GitHub", link: "https://github.com/Navin2404" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -233,8 +224,8 @@ export default function Resume() {
           }}
         >
           <iframe
-            src="/resume.pdf"
-            title="Kunj Desai Resume"
+            src="/Naveen-new.pdf"
+            title="Naveen C Resume"
             style={{
               width: "100%",
               height: "650px",
@@ -246,7 +237,7 @@ export default function Resume() {
 
         {/* Download Button */}
         <motion.a
-          href="/resume.pdf"
+          href="/Naveen.new.pdf"
           download
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
