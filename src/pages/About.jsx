@@ -56,9 +56,9 @@ const AboutMe = () => {
             marginBottom: "1rem",
           }}
         >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
+          Hi, I’m <strong>Naveen C</strong> — an aspiring{" "}
+          <strong>Software Engineer</strong> and{" "}
+          <strong>Full Stack enthusiast</strong> who loves turning ideas
           into intelligent systems. I’m deeply fascinated by how data and
           algorithms can shape the future of healthcare, automation, and
           creativity in technology.
